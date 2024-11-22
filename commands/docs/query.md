@@ -38,7 +38,7 @@ See the [Plugins](/book/plugins.html) chapter in the book for more information.
 | name                                                         | description                                                                                                                       | type     |
 | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- | -------- |
 | [`query db`](/commands/docs/query_db.md)                     | Query a database using SQL.                                                                                                       | built-in |
-| [`query json`](/commands/docs/query_json.md)                 | execute json query on json file (open --raw \<file\> | query json 'query string')                                                 | plugin   |
+| [`query json`](/commands/docs/query_json.md)                 | execute json query on json file (open --raw \<file\> \| query json 'query string')                                                 | plugin   |
 | [`query web`](/commands/docs/query_web.md)                   | execute selector query on html/web                                                                                                | plugin   |
 | [`query webpage-info`](/commands/docs/query_webpage-info.md) | uses the webpage crate to extract info from html: title, description, language, links, RSS feeds, Opengraph, Schema.org, and more | plugin   |
 | [`query xml`](/commands/docs/query_xml.md)                   | execute xpath query on xml                                                                                                        | plugin   |
